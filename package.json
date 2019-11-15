@@ -8,22 +8,34 @@
     "@material-ui/icons": "^4.5.1",
     "@material-ui/lab": "^4.0.0-alpha.31",
     "@material-ui/styles": "latest",
+    "@shopify/koa-shopify-auth": "^3.1.49",
     "clsx": "latest",
+    "dotenv": "^8.2.0",
+    "isomorphic-fetch": "^2.2.1",
+    "koa": "^2.11.0",
+    "koa-session": "^5.12.3",
     "next": "^9.1.2",
     "query-string": "^6.8.3",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "winston": "^3.2.1"
   },
   "scripts": {
-    "dev": "next",
+    "dev": "nodemon",
     "build": "next build",
-    "start": "next start"
+    "start": "ts-node/register server.ts"
   },
   "devDependencies": {
     "@babel/core": "^7.7.0",
+    "@types/dotenv": "^8.2.0",
+    "@types/koa": "^2.0.52",
+    "@types/koa-session": "^5.10.1",
     "@types/next": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
+    "cross-env": "^6.0.3",
+    "nodemon": "^1.19.4",
+    "ts-node": "^8.5.0",
     "typescript": "latest"
   }
 }
