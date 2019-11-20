@@ -22,8 +22,8 @@
   },
   "scripts": {
     "dev": "nodemon",
-    "build": "next build",
-    "start": "NODE_ENV=production node ./server/index.js"
+    "build": "next build && tsc --project tsconfig.server.json",
+    "start": "cross-env NODE_ENV=production node dist/index.js"
   },
   "devDependencies": {
     "@babel/core": "^7.7.0",
