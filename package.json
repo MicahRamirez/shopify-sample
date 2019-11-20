@@ -23,7 +23,7 @@
   "scripts": {
     "dev": "nodemon",
     "build": "next build",
-    "start": "ts-node/register server.ts"
+    "start": "next start"
   },
   "devDependencies": {
     "@babel/core": "^7.7.0",
