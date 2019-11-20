@@ -23,7 +23,7 @@
   "scripts": {
     "dev": "nodemon",
     "build": "next build",
-    "start": "next start"
+    "start": "NODE_ENV=production node ./server/index.js"
   },
   "devDependencies": {
     "@babel/core": "^7.7.0",
